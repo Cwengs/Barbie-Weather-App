@@ -3,17 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
-    <title> Bairbie Weather App</title>
+    <title>Barbie Weather App</title>
+    <link
+      rel="shortcut icon"
+      href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/614/original/Barbie_Logo.png?1710762008"
+      type="image/x-icon"
+    />
   </head>
   <body>
-
-    <main>
-       
+    <div class="weather-app">
       <header>
-        
-      </header>
-      <div class="weather-app">
         <form>
           <input
             type="search"
@@ -23,11 +29,14 @@
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
+      </header>
+      <main>
         <div class="current-weather">
           <div>
             <h1 class="current-city">Paris</h1>
             <p class="current-details">
-              Saturday 15:32, moderate rain <br />
+              <span id="current-time">Saturday 15:32</span>, moderate rain
+              <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
@@ -36,21 +45,18 @@
             ><span class="current-temperature-value">24</span
             ><span class="current-temperature-unit">°C</span>
           </div>
-            <div class="Barbie_lay">
-        <link rel="stylesheet" href=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/605/original/Barbie_lay.jpg?1710758183">
-      </div>
         </div>
       </main>
       <footer>
         <p>
-      Weather App &copy; 2024 | Built by
-      <a href="https://github.com/Cwengs" target="_blank">
-        Khanyisa Cwenga Buso</a
-      >. Code hosted on
-      <a href="https://github.com/Cwengs/Weather" target="_blank"> Github</a>
-    
-     </p>
+          Barbie Weather App &copy; | Coded by : Khanyisa Cwenga Buso
+          <a href="https://github.com/Cwengs" target="_blank">
+            Hosted on GitHub</a
+          >
+        </p>
       </footer>
     </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>

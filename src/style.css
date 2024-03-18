@@ -1,24 +1,29 @@
 body {
   background: #f9f7fe;
   font-family: "Roboto", sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/615/original/Barbie_name.png?1710762016");
 }
-
 a {
-  color: #885df1;
+  color: #f40096;
 }
 
 .weather-app {
   background: white;
+
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 30px;
+  box-shadow: 0 30px 50px#F40096;
 }
 
 header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+  background-image: url
+    (
+      "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/614/original/Barbie_Logo.png?1710762008"
+    );
 }
 
 .search-input {
@@ -32,9 +37,9 @@ header {
 }
 
 .search-button {
-  margin-left: 5px;
-  font-size: 16px;
-  background-color: #885df1;
+  margin-left: 1px;
+  font-size: 14px;
+  background-color: #f40096;
   color: white;
   border: none;
   padding: 20px;
@@ -68,7 +73,7 @@ main {
 }
 
 .current-details strong {
-  color: #f65282;
+  color: #f40096;
 }
 
 .current-temperature-icon {
